@@ -4,30 +4,19 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.assessment</groupId>
-    <artifactId>assessment2</artifactId>
-    <version>1.0-SNAPSHOT</version>
-
+    <groupId>tech.aluve</groupId>
+    <artifactId>assessment3</artifactId>
 
     <properties>
-        <junit-jupiter.version>5.9.2</junit-jupiter.version>
-        <junit-platform-suite.version>1.9.2</junit-platform-suite.version>
-        <cucumber.version>7.11.1</cucumber.version>
-
-        <java.version>11</java.version>
-        <maven.compiler.target>${java.version}</maven.compiler.target>
-        <maven.compiler.source>${java.version}</maven.compiler.source>
-
-        <project.encondig>UTF-8</project.encondig>
-        <project.build.sourceEncoding>${project.encondig}</project.build.sourceEncoding>
-        <project.reporting.outputEncoding>${project.encondig}</project.reporting.outputEncoding>
-        <maven.compiler.plugin.version>3.10.1</maven.compiler.plugin.version>
+        <maven.compiler.source>20</maven.compiler.source>
+        <maven.compiler.target>20</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
     <dependencies>
         <dependency>
             <groupId>tech.aluvesoftware</groupId>
-            <artifactId>web_eqa</artifactId>
+            <artifactId>api_eqa</artifactId>
             <version>1.0.0-SNAPSHOT</version>
         </dependency>
         <!-- Cucumber dependencies -->
